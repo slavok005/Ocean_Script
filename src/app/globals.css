@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+html, body {
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto; /* Центрирование */
+  overflow: auto; /* Отключает прокрутку, если контент выходит за пределы */
+}
