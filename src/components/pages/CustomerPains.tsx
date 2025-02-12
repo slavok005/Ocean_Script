@@ -16,7 +16,7 @@ export default function CustomerPains() {
           <Image
             src="/Cone.jpg"
             alt="Pains Illustration"
-            width={256} 
+            width={256}
             height={256}
             className="w-40 sm:w-52 md:w-64 h-auto"
           />
