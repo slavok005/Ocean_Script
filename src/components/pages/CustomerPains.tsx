@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CustomerPains() {
   return (
     <section className="max-w-[1330px] w-full mx-2 py-2 mx-auto px-6 sm:px-10 rounded-lg relative bg-white text-black">
@@ -11,9 +13,11 @@ export default function CustomerPains() {
       </div>
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-4 flex justify-center items-center">
-          <img
+          <Image
             src="/Cone.jpg"
             alt="Pains Illustration"
+            width={256} 
+            height={256}
             className="w-40 sm:w-52 md:w-64 h-auto"
           />
         </div>
