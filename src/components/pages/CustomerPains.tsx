@@ -1,6 +1,6 @@
 export default function CustomerPains() {
   return (
-    <section className="max-w-[1530px] w-full mx-2 py-2 px-6 sm:px-10 rounded-lg relative bg-white text-black">
+    <section className="max-w-[1330px] w-full mx-2 py-2 mx-auto px-6 sm:px-10 rounded-lg relative bg-white text-black">
       <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
         <h2 className="text-2xl sm:text-3xl font-bold pl-32 pb-2 sm:pb-4 text-center sm:text-left">
           Customer pains

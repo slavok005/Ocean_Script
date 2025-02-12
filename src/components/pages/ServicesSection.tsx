@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Services() {
     return (
       <section 
-        className="w-[1920px] h-[750px] max-w-7xl mx-auto py-16 px-12 text-white rounded-lg relative bg-cover bg-center"
-        style={{ backgroundImage: "url('/photo.jpg')" }}
+        className="w-[1920px] h-[750px] max-w-7xl  mx-auto py-16 px-12 text-white rounded-lg relative bg-cover bg-center"
+        style={{ backgroundImage: "url('/photo1.jpg')" }}
       >
         <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
         <h2 className="text-2xl sm:text-3xl font-bold pl-32 pb-2 sm:pb-4 text-center sm:text-left">
